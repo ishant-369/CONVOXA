@@ -1,16 +1,19 @@
-# React + Vite
+### Convoxa – AI-Powered Communication Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* **AI Assistant:** Chat with an intelligent AI assistant to solve problems, answer questions, brainstorm ideas, and assist with learning, coding, and daily tasks.
 
-Currently, two official plugins are available:
+* **Real-Time Messaging:** Enjoy fast and responsive one-to-one and group conversations with instant message delivery for a smooth communication experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Voice Calling:** Connect with friends, teammates, or communities through high-quality voice calls for seamless collaboration and discussions.
 
-## React Compiler
+* **Communities & Groups:** Create and join groups to communicate, share updates, organize discussions, and collaborate with multiple users in one place.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **User Authentication & Security:** Secure user registration, login, and profile management ensure a safe and personalized experience.
 
-## Expanding the ESLint configuration
+* **Modern User Interface:** Designed with a clean, intuitive, and responsive interface that works smoothly across desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Scalable Architecture:** Built using modern web technologies with a scalable backend capable of supporting real-time interactions and future feature expansion.
+
+* **Productivity Focus:** Combines AI assistance with communication tools, allowing users to solve problems, collaborate, and stay connected without switching between multiple applications.
+
+* **Technology Stack:** Developed using React for the frontend, Django and Django REST Framework for the backend, REST APIs for communication, and modern database technologies for efficient data management.
