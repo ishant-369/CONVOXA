@@ -16,4 +16,4 @@
 
 * **Productivity Focus:** Combines AI assistance with communication tools, allowing users to solve problems, collaborate, and stay connected without switching between multiple applications.
 
-* **Technology Stack:** Developed using React for the frontend, Django and Django REST Framework for the backend, REST APIs for communication, and modern database technologies for efficient data management.
+* **Technology Stack:** It is developed using React for the frontend, Django and Django REST Framework for the backend, REST APIs for communication, and modern database technologies for efficient data management.
