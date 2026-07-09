@@ -13,7 +13,7 @@ function Login_container() {
             <div className="login-container">
                 <div className="heading"><span className="text-[54px]">w</span>ELCOME <span className="text-[50px]">B</span>ACK</div>
                 <input type="email" id="loginUser" placeholder="Email" />
-                <div className="password-box">
+                <div className="password-box ">
                     <input type="password" id="password" placeholder="Password" />
                     <span onclick="togglePassword()">👁</span>
                 </div>
