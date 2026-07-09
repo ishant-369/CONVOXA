@@ -1,5 +1,6 @@
 import Signup_form from './components/signup_container'
 import './Signup.css'
+import dragonVideo from "./assets/dragon.mp4";
 
 function Signup(){
 
@@ -17,7 +18,7 @@ function Signup(){
 
         console.log("Submitted");
     }
-
+  
    
 
 //         const form = document.getElementById('signupform');     
@@ -56,7 +57,23 @@ function Signup(){
 // });
 
     return<>
+    <video
+       className="background-video"
+       autoPlay
+       muted
+       loop
+       playsInline
+    >
+       <source src={dragonVideo} type="video/mp4" />
+    </video>
+    
+    
+    <div className='bg-'>
+
         <Signup_form />
+
+    </div>
+        
     </>
 }
 

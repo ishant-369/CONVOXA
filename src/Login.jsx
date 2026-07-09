@@ -1,5 +1,6 @@
 import Login_container from './components/login_container.jsx'
 import './Login.css'
+import dragonVideo from "./assets/dragon.mp4";
 
 
 function Login(){
@@ -34,6 +35,17 @@ function Login(){
 // }
 // });
 return<>
+    <div>
+        <video
+               className="background-video"
+               autoPlay
+               muted
+               loop
+               playsInline
+            >
+               <source src={dragonVideo} type="video/mp4" />
+            </video>
+    </div>
     <Login_container/>
 </>
 }

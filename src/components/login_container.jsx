@@ -11,13 +11,26 @@ function Login_container() {
             <div className="orb orb-left"></div>
             <div className="orb orb-right"></div>
             <div className="login-container">
-                <h2>Login</h2>
+                <div className="heading"><span className="text-[54px]">w</span>ELCOME <span className="text-[50px]">B</span>ACK</div>
                 <input type="email" id="loginUser" placeholder="Email" />
                 <div className="password-box">
                     <input type="password" id="password" placeholder="Password" />
                     <span onclick="togglePassword()">👁</span>
                 </div>
-                <button onClick="login()">Login</button>
+                <button className="w-[70%] 
+                                   p-3
+                                   border-none 
+                                   rounded-[25px] 
+                                   bg-[rgba(0,255,255,0.233)] 
+                                   text-white 
+                                   font-bold 
+                                   cursor-pointer 
+                                   transition-all 
+                                   duration-100 
+                                   ease-in-out
+                                   hover:scale-[1.03]"
+                                   id="login"
+                                   onClick="login()">Login</button>
                 <p>
                     Don't have an account?
                     {/* <a href="signup.html">Signup</a> */}
