@@ -28,3 +28,9 @@ __pycache__/
 
 # SQLite database
 db.sqlite3
+.env
+db.sqlite3
+
+__pycache__/
+*.pyc
+.venv/
